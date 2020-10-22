@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: wangbaoming/multi-worker-10-14
+          image: wangbaoming/multi-worker
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
